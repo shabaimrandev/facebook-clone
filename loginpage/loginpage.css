@@ -1,0 +1,91 @@
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem; /* 1rem = 16px */
+    background-color: #F2F3F5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly; /* horizontal alignment */
+    align-items: center; /* vertical alignment */
+    height: 100vh; /* vh means view-port height */
+}
+
+img { margin-left: -35px; }
+
+#firstParagraph {
+    font-size: 24px;
+    line-height: 32px;
+    width: 430px;
+    margin-top: -90px;
+}
+
+input {
+    width: 360px;
+    height: 50px;
+    padding-left: 15px;
+    border-radius: 7px;
+    border: 1px solid #dddfe2; /* initial border color */
+    transition: border-color 0.5s ease-in-out; /* smooth transition for border color change */
+}
+
+/* style for the input field when it receives focus */
+input:focus {
+    border: 1px solid #1877F2;/* new border color when focused */
+    outline: none; /* removes the default browser outline on focus */
+}
+
+input::placeholder { font-size: 17px; }
+
+#login-btn {
+    background-color: #0866ff; /*# is a color code*/
+    width: 360px;
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+a {
+    color: #0866ff;
+    font-size: 14px; 
+    text-decoration: none;
+}
+
+a:hover { text-decoration: underline; }
+
+hr { width: 340px; }
+
+#create-account-btn {
+    width: 200px;
+    height: 45px;
+    background-color: #42b72a;
+    color: rgb(255, 255, 255); /* rgb value is a mixture of red, green & blue; 0-255 */
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+}
+
+form p {
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* #create-account-btn:hover {
+    background-color: #36a420;
+} */
