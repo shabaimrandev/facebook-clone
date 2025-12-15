@@ -42,7 +42,7 @@ input:focus {
 input::placeholder { font-size: 17px; }
 
 #login-btn {
-    background-color: #0866ff; /*# is a color code*/
+    background-color: #0866ff;
     width: 360px;
     height: 45px;
     color: white;
@@ -71,21 +71,11 @@ hr { width: 340px; }
     border-radius: 7px;
 }
 
+#create-account-btn:hover {
+    background-color: #36a420;
+
+}
+
 form p {
     font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* #create-account-btn:hover {
-    background-color: #36a420;
-} */
